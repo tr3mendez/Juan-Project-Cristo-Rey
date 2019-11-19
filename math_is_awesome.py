@@ -11,7 +11,8 @@ with open ('/Users/maxmende/Downloads/USM Service Data - Corporate Network (1).c
     for row in scanner: 
         if row['osr_rating'] == 'R1'or row['osr_rating'] == 'R2':
             print(row['hostname'], row['vuln_title'], row['osr_rating'])
-
+        else:
+            pass
     print(row)
     for row in scanner:
         if row['osr_rating'] == 'R1':
